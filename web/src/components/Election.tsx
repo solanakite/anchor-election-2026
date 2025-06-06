@@ -35,7 +35,7 @@ const bigIntReplacer = (key: string, value: any) => {
 const stringify = (value: any) => JSON.stringify(value, bigIntReplacer, 2);
 
 // Where we deployed our election program, on Solana Devnet.
-const ELECTION_PROGRAM_ADDRESS = address("9rHqnJtY6QGbyAdMjtzVaHKix5tAgbQTRpasW6iz2FZd");
+const ELECTION_PROGRAM_ADDRESS = address("81CwxRyxTd3RWSZT6x3w5RjLTFcudVri3i9KsmWpifCk");
 
 export function Election({ account }: Props) {
   const [error, setError] = useState<Error | undefined>(undefined);
