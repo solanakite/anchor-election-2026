@@ -6,7 +6,7 @@ pub mod error;
 pub mod handlers;
 pub mod state;
 
-declare_id!("9rHqnJtY6QGbyAdMjtzVaHKix5tAgbQTRpasW6iz2FZd");
+declare_id!("81CwxRyxTd3RWSZT6x3w5RjLTFcudVri3i9KsmWpifCk");
 
 #[program]
 pub mod election {

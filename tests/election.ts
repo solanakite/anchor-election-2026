@@ -3,8 +3,8 @@ import { before, describe, test, it } from "node:test";
 import assert from "node:assert";
 
 // This is the generated client made by Codama
-import * as programClient from "../dist/js-client";
-import { getElectionDecoder, ELECTION_DISCRIMINATOR } from "../dist/js-client";
+import * as programClient from "../dist/election-client";
+import { getElectionDecoder, ELECTION_DISCRIMINATOR } from "../dist/election-client";
 
 // We use the types from @solana/kit
 // We use some high levels functions from solana-kite

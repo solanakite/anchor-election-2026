@@ -8,7 +8,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-election = "9rHqnJtY6QGbyAdMjtzVaHKix5tAgbQTRpasW6iz2FZd"
+election = "81CwxRyxTd3RWSZT6x3w5RjLTFcudVri3i9KsmWpifCk"
 
 [registry]
 url = "https://api.apr.dev"
@@ -20,4 +20,4 @@ wallet = "~/.config/solana/id.json"
 [scripts]
 # We need '--test-reporter=spec' to get a more readable output on GitHub CI
 # this has no effect on local runs
-test = "npx tsx create-codama-client.ts; npx tsx --test --test-reporter=spec tests/*.ts"
+test = "npx create-codama-clients; npx tsx --test --test-reporter=spec tests/*.ts"

@@ -3,8 +3,8 @@ import {
   address,
   type KeyPairSigner,
 } from "@solana/kit";
-import * as programClient from "../../../dist/js-client";
-import { getElectionDecoder, ELECTION_DISCRIMINATOR } from "../../../dist/js-client";
+import * as programClient from "../../../dist/election-client";
+import { getElectionDecoder, ELECTION_DISCRIMINATOR } from "../../../dist/election-client";
 
 // We use this to Sign our transactions with the connected wallet
 import { useWalletAccountTransactionSendingSigner } from "@solana/react";
