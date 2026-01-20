@@ -4,7 +4,7 @@
 
 [![CI Badge](https://github.com/solanakite/anchor-election-2026/actions/workflows/tests.yaml/badge.svg)](https://github.com/solanakite/anchor-election-2026/actions)
 
-A new version of [onchain voting from the Anchor docs](https://examples.anchor-lang.com/docs/onchain-voting). 
+A new version of [onchain voting from the Anchor docs](https://examples.anchor-lang.com/docs/onchain-voting).
 
 > A decentralized onchain voting system on Solana, where users can vote on their favourite greeting
 
@@ -35,7 +35,7 @@ OS:
 Solana CLI:
   solana-cli 2.1.21 (src:8a085eeb; feat:1416569292, client:Agave)
 Anchor:
-  anchor-cli 0.31.1
+  anchor-cli 2.1
 Node:
   v22.14.0
 Rust:
@@ -71,7 +71,6 @@ Using different versions may cause compatibility issues.
    ```bash
    anchor deploy
    ```
-
 
 ## Changelog and Credits
 
