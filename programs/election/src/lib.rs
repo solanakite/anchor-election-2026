@@ -1,3 +1,7 @@
+// TODO: Remove this once Anchor 0.32.1 cfg warnings are fixed
+// See: https://stackoverflow.com/questions/79225593/unexpected-cfg-condition-value-solana
+#![allow(unexpected_cfgs)]
+
 use anchor_lang::prelude::*;
 use handlers::*;
 
